@@ -1,5 +1,5 @@
 {
-    "name": "algo26-matthias/idna-convert",
+    "name": "froxlor/idna-convert-legacy",
     "description": "A library for encoding and decoding internationalized domain names",
     "license": "LGPL-2.1+",
     "keywords": ["PHP","IDN","IDNA"],
@@ -8,6 +8,11 @@
         {
             "name": "Matthias Sommerfeld",
             "email": "matthias.sommerfeld@algo26.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Michael Kaufmann (d00p)",
+            "email": "d00p@froxlor.org",
             "role": "Developer"
         }
     ],
