@@ -129,7 +129,7 @@ class EncodingHelper
         $return = '';
 
         for ($i = 0; $i < strlen($string); ++$i) {
-            $c = ord($string{$i});
+            $c = ord($string[$i]);
             switch ($c) {
                 case 129:
                     $return .= chr(252);
@@ -176,7 +176,7 @@ class EncodingHelper
 
         $return = '';
         for ($i = 0; $i < strlen($string); ++$i) {
-            $c = ord($string{$i});
+            $c = ord($string[$i]);
             switch ($c) {
                 case 196:
                     $return .= chr(142);

@@ -53,7 +53,7 @@ namespace Algo26\IdnaConvert;
 
 class IdnaConvert
 {
-    const Version = '2.1.0';
+    const Version = '2.1.1';
     const SubVersion = 'main';
 
     // Internal settings, do not touch!
